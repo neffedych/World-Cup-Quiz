@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">World Cup Quiz</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/game/game.html">Play</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/highscores/highscores.html">High Scores</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Play the Quiz and check your knowledge.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><a href="./pages/game/game.html">Play</a></button>
+          <button type="button" class="btn btn-light btn-lg download-button"><a href="./pages/highscores/highscores.html">Scores</a></button>
+        </div>
+
+        <div class="col-lg-6">
+          <img id="world-cup-img" class="title-image" src="./images/cup.png" alt="world cup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Cool Questions</h3>
+          <p>We have all the questions, the greatest questions.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to having a fun.</h3>
+          <p>Play with your friends and family.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <h2 id="testimonials-h2">World Cup Teams</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <img class="testimonial-image" src="./images/england.png" alt="dog-profile">
+          <em>England</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="./images/france.webp" alt="dog-profile">
+          <em>France</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="./images/germany.png" alt="dog-profile">
+          <em>Germany</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="./images/brazil.png" alt="dog-profile">
+          <em>Brazil</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="./images/belgium.png" alt="dog-profile">
+          <em>Belgium</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="./images/portugal.png" alt="dog-profile">
+          <em>Portugal</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="./images/croatia.png" alt="dog-profile">
+          <em>Croatia</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="./images/spain.webp" alt="dog-profile">
+          <em>Spain</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Are you a real football fan?</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><a href="./pages/game/game.html">Play</a></button>
+      <button class="download-button btn btn-lg brn-light" type="button"><a href="./pages/highscores/highscores.html">Scores</a></button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2022 World Cup Quiz</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

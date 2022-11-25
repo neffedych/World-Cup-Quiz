@@ -1,0 +1,20 @@
+#highScoresList {
+    list-style:none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+  }
+  
+  .high-score {
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    background: #233329;
+    background: linear-gradient(to right, #233329 19%, #63D471 63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  
+  .high-score:hover {
+    transform: scale(1.033);
+  }
